@@ -1,3 +1,4 @@
+// Footer.jsx
 import React from 'react';
 
 
@@ -6,28 +7,32 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h3>Animal Shelter</h3>
+          <h3>Fur_Ever 🐾</h3>
           <p>Providing loving homes for animals in need.</p>
         </div>
-        
-       
-        
+
+        <div className="footer-section">
+          <h4>Quick Links</h4>
+          <ul className="footer-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/adopt">Adopt</a></li>
+            <li><a href="/donate">Donate</a></li>
+          </ul>
+        </div>
+
         <div className="footer-section">
           <h4>Contact Info</h4>
-          <p>📍 123 Shelter Street, Animal City</p>
-          <p>📞 (555) 123-4567</p>
-          <p>✉️ info@animalshelter.org</p>
-        </div>
-        
-        <div className="footer-section">
-          <h4>Hours</h4>
-          <p>Monday - Friday: 9AM - 6PM</p>
-          <p>Saturday: 10AM - 4PM</p>
-          <p>Sunday: 12PM - 3PM</p>
+          <div className="footer-contact">
+            <p>📍 123 Shelter Street</p>
+            <p>📞 (555) 123-4567</p>
+            <p>✉️ help@fur_ever.org</p>
+          </div>
         </div>
       </div>
-      
-      
+
+      <div className="footer-bottom">
+        <p>&copy; 2024 Fur_Ever Animal Shelter. All rights reserved.</p>
+      </div>
     </footer>
   );
 };

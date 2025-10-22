@@ -1,23 +1,42 @@
+// AnimalCard.jsx
 import React from 'react';
 
 
-const AnimalCard = () => {
+const AnimalCard = ({ animal }) => {
+  const { name, type, breed, age, image, description, available } = animal;
+
   return (
-    <div className="card">
-      <div className="imageContainer">
-        <img src="/Images/Pussy.jpg" alt="Bella" className="image" />
+    <div className="animal-card">
+      <div className="image-container">
+        <img 
+          src={image} 
+          alt={name} 
+          className="animal-image"
+        />
       </div>
-      <div className="description">
-        <p className="petName">Name: Bella</p>
-        <p className="petType">Type: Dog</p>
-        <p className="breedType">Breed: Bosco</p>
-        <p className="petAge">Age: 1 year</p>
-        <p className="petAvailability">Available</p>
-      </div>
-      <div className="buttons">
-        <button className="btn-adopt">Adopt</button>
-        <br /><br />
-        <button className="btn-donate">Donate</button>
+      
+      <div className="animal-info">
+        <h3 className="pet-name">{name}</h3>
+        <p className="pet-detail"><strong>Type:</strong> {type}</p>
+        <p className="pet-detail"><strong>Breed:</strong> {breed}</p>
+        <p className="pet-detail"><strong>Age:</strong> {age}</p>
+        
+        {description && (
+          <p className="pet-description">"{description}"</p>
+        )}
+        
+        <div className={`pet-availability ${available ? 'available' : 'not-available'}`}>
+          {available ? 'Available for Adoption' : 'Already Adopted'}
+        </div>
+        
+        <div className="animal-actions">
+          <button className="adopt-btn">
+            Adopt {name}
+          </button>
+          <button className="donate-btn">
+            Donate
+          </button>
+        </div>
       </div>
     </div>
   );

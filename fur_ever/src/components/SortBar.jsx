@@ -12,6 +12,10 @@ const SortBar = () => {
           <option value="">All Animals</option>
           <option value="Dog">Dogs</option>
           <option value="Cat">Cats</option>
+          <option value="Cat">Cats</option>
+          <option value="Cat">Cats</option>
+          <option value="Cat">Cats</option>
+          <option value="Cat">Cats</option>
         </select>
       </div>
       
