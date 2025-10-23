@@ -6,44 +6,121 @@
       "type": "Dog",
       "breed": "Golden Retriever",
       "age": "2 years",
-      "image": "/Images/Beagle.jpg",
+      "image": "/Images/jamani.jpg",
       "description": "Friendly and energetic, loves playing fetch and swimming",
       "available": true
     },
     {
       "id": "2",
-      "name": "Max",
-      "type": "Dog",
-      "breed": "Labrador",
+      "name": "Coco",
+      "type": "Guinea Pig",
+      "breed": "American",
       "age": "1 year",
-      "image": "/Images/Beagle.jpg",
-      "description": "Playful and loyal, great with children and other pets",
+      "image": "/Images/squirel.jpg",
+      "description": "Social and vocal, loves fresh vegetables and gentle handling",
       "available": true
     },
     {
       "id": "3",
-      "name": "Rocky",
+      "name": "Sky",
+      "type": "Bird",
+      "breed": "Parakeet",
+      "age": "6 months",
+      "image": "/Images/bird.jpg",
+      "description": "Colorful and chatty, can learn to mimic words and sounds",
+      "available": true
+    },
+    {
+      "id": "4",
+      "name": "Squeaky",
+      "type": "Mouse",
+      "breed": "Fancy Mouse",
+      "age": "8 months",
+      "image": "/Images/mouse.jpg",
+      "description": "Curious and active, enjoys running on wheels and exploring tunnels",
+      "available": true
+    },
+    {
+      "id": "5",
+      "name": "Fofs",
+      "type": "Rabbit",
+      "breed": "Himalayan",
+      "age": "1 year",
+      "image": "/Images/fofs.jpg",
+      "description": "Gentle and calm, loves hopping around and eating fresh greens",
+      "available": true
+    },
+    {
+      "id": "6",
+      "name": "Slither",
+      "type": "Snake",
+      "breed": "Corn Snake",
+      "age": "2 years",
+      "image": "/Images/snake.jpg",
+      "description": "Docile and easy to handle, perfect for first-time snake owners",
+      "available": false
+    },
+    {
+      "id": "7",
+      "name": "Max",
       "type": "Dog",
       "breed": "German Shepherd",
       "age": "3 years",
-      "image": "/Images/Beagle.jpg",
-      "description": "Smart and protective, excellent guard dog and loyal companion",
+      "image": "/Images/dawg2.jpg",
+      "description": "Loyal and protective, great with families and very intelligent",
+      "available": true
+    },
+    {
+      "id": "8",
+      "name": "Peanut",
+      "type": "Guinea Pig",
+      "breed": "Abyssinian",
+      "age": "2 years",
+      "image": "/Images/bull.jpg",
+      "description": "Friendly with rosette fur patterns, loves companionship",
+      "available": true
+    },
+    {
+      "id": "9",
+      "name": "Sunny",
+      "type": "Bird",
+      "breed": "Cockatiel",
+      "age": "1 year",
+      "image": "/Images/bird.jpg",
+      "description": "Playful and affectionate, enjoys whistling and head scratches",
+      "available": true
+    },
+    {
+      "id": "10",
+      "name": "Nibbles",
+      "type": "Mouse",
+      "breed": "Dwarf Mouse",
+      "age": "1 year",
+      "image": "/Images/squirel.jpg",
+      "description": "Tiny and energetic, very social with other mice",
+      "available": true
+    },
+    {
+      "id": "11",
+      "name": "Thumper",
+      "type": "Rabbit",
+      "breed": "Dutch",
+      "age": "2 years",
+      "image": "/Images/Pussy.jpg",
+      "description": "Friendly with distinctive markings, loves exploring and digging",
+      "available": false
+    },
+    {
+      "id": "12",
+      "name": "Ziggy",
+      "type": "Snake",
+      "breed": "Ball Python",
+      "age": "3 years",
+      "image": "/Images/snake.jpg",
+      "description": "Calm and gentle, gets its name from curling into a ball when scared",
       "available": true
     }
   ],
-  "adoptions": [
-    {
-      "id": "a1b0"
-    },
-    {
-      "id": "bffb",
-      "animalId": 1,
-      "animalName": "Bella",
-      "adopterName": "Samuel",
-      "adopterEmail": "Bullet@gmail.com",
-      "adopterPhone": "222",
-      "applicationDate": "2025-10-23T21:54:55.954Z",
-      "status": "pending"
-    }
-  ]
+  "adoptions": [],
+  "donations": []
 }

@@ -89,7 +89,7 @@ const AdoptForm = () => {
           <h2>Your Information</h2>
           
           <div className="form-group">
-            <label>Full Name *</label>
+            <label>Full Name </label>
             <input
               type="text"
               name="name"
@@ -101,7 +101,7 @@ const AdoptForm = () => {
           </div>
 
           <div className="form-group">
-            <label>Email *</label>
+            <label>Email </label>
             <input
               type="email"
               name="email"
@@ -113,7 +113,7 @@ const AdoptForm = () => {
           </div>
 
           <div className="form-group">
-            <label>Phone Number *</label>
+            <label>Phone Number </label>
             <input
               type="tel"
               name="phone"
