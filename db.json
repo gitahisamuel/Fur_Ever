@@ -6,7 +6,7 @@
       "type": "Dog",
       "breed": "Golden Retriever",
       "age": "2 years",
-      "image": "/Images/dawg.jpg",
+      "image": "/Images/Beagle.jpg",
       "description": "Friendly and energetic, loves playing fetch and swimming",
       "available": true
     },
@@ -16,7 +16,7 @@
       "type": "Dog",
       "breed": "Labrador",
       "age": "1 year",
-      "image": "/Images/dawg.jpg",
+      "image": "/Images/Beagle.jpg",
       "description": "Playful and loyal, great with children and other pets",
       "available": true
     },
@@ -26,169 +26,10 @@
       "type": "Dog",
       "breed": "German Shepherd",
       "age": "3 years",
-      "image": "/Images/dawg.jpg",
+      "image": "/Images/Beagle.jpg",
       "description": "Smart and protective, excellent guard dog and loyal companion",
       "available": true
-    },
-    {
-      "id": 4,
-      "name": "Daisy",
-      "type": "Dog",
-      "breed": "Beagle",
-      "age": "5 years",
-      "image": "/Images/dog4.jpg",
-      "description": "Sweet and gentle, great nose and loves following scents",
-      "available": true
-    },
-    {
-      "id": 5,
-      "name": "Buddy",
-      "type": "Dog",
-      "breed": "Poodle",
-      "age": "4 years",
-      "image": "/Images/dog5.jpg",
-      "description": "Intelligent and hypoallergenic, great for families with allergies",
-      "available": true
-    },
-    {
-      "id": 6,
-      "name": "Whiskers",
-      "type": "Cat",
-      "breed": "Siamese",
-      "age": "3 years",
-      "image": "/Images/cat1.jpg",
-      "description": "Calm and affectionate, enjoys quiet spaces and sunbathing",
-      "available": true
-    },
-    {
-      "id": 7,
-      "name": "Luna",
-      "type": "Cat",
-      "breed": "Maine Coon",
-      "age": "4 years",
-      "image": "/Images/cat2.jpg",
-      "description": "Gentle giant, loves cuddles and has a majestic fluffy coat",
-      "available": true
-    },
-    {
-      "id": 8,
-      "name": "Mittens",
-      "type": "Cat",
-      "breed": "Domestic Shorthair",
-      "age": "2 years",
-      "image": "/Images/cat3.jpg",
-      "description": "Playful and curious, loves chasing toys and exploring",
-      "available": true
-    },
-    {
-      "id": 9,
-      "name": "Shadow",
-      "type": "Cat",
-      "breed": "Black Domestic",
-      "age": "1 year",
-      "image": "/Images/cat4.jpg",
-      "description": "Mysterious and sleek, loves high places and quiet observation",
-      "available": true
-    },
-    {
-      "id": 10,
-      "name": "Thumper",
-      "type": "Rabbit",
-      "breed": "Dutch",
-      "age": "1 year",
-      "image": "/Images/rabbit1.jpg",
-      "description": "Sweet and hoppy, loves fresh vegetables and gentle pets",
-      "available": true
-    },
-    {
-      "id": 11,
-      "name": "Cotton",
-      "type": "Rabbit",
-      "breed": "Mini Rex",
-      "age": "2 years",
-      "image": "/Images/rabbit2.jpg",
-      "description": "Soft and calm, enjoys being brushed and eating hay",
-      "available": true
-    },
-    {
-      "id": 12,
-      "name": "Oreo",
-      "type": "Rabbit",
-      "breed": "Holland Lop",
-      "age": "6 months",
-      "image": "/Images/rabbit3.jpg",
-      "description": "Playful with floppy ears, loves exploring and treats",
-      "available": true
-    },
-    {
-      "id": 13,
-      "name": "Sunny",
-      "type": "Bird",
-      "breed": "Cockatiel",
-      "age": "1 year",
-      "image": "/Images/bird1.jpg",
-      "description": "Colorful and musical, loves to whistle and mimic sounds",
-      "available": true
-    },
-    {
-      "id": 14,
-      "name": "Sky",
-      "type": "Bird",
-      "breed": "Parakeet",
-      "age": "8 months",
-      "image": "/Images/bird2.jpg",
-      "description": "Small and active, enjoys flying and learning tricks",
-      "available": true
-    },
-    {
-      "id": 15,
-      "name": "Rio",
-      "type": "Bird",
-      "breed": "Lovebird",
-      "age": "2 years",
-      "image": "/Images/bird3.jpg",
-      "description": "Social and colorful, prefers having a feathered friend",
-      "available": true
-    },
-    {
-      "id": 16,
-      "name": "Mocha",
-      "type": "Guinea Pig",
-      "breed": "Abyssinian",
-      "age": "6 months",
-      "image": "/Images/guinea1.jpg",
-      "description": "Small and social, loves fresh hay and gentle handling",
-      "available": true
-    },
-    {
-      "id": 17,
-      "name": "Cocoa",
-      "type": "Guinea Pig",
-      "breed": "American",
-      "age": "1 year",
-      "image": "/Images/guinea2.jpg",
-      "description": "Friendly and vocal, makes cute squeaking sounds when happy",
-      "available": true
-    },
-    {
-      "id": 18,
-      "name": "Slither",
-      "type": "Snake",
-      "breed": "Corn Snake",
-      "age": "2 years",
-      "image": "/Images/snake1.jpg",
-      "description": "Calm and easy to handle, perfect for first-time snake owners",
-      "available": true
-    },
-    {
-      "id": 19,
-      "name": "Squeaky",
-      "type": "Mouse",
-      "breed": "Fancy Mouse",
-      "age": "4 months",
-      "image": "/Images/mouse1.jpg",
-      "description": "Tiny and curious, loves running on wheels and exploring tubes",
-      "available": true
     }
+   
   ]
 }

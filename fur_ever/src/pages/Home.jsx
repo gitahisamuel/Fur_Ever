@@ -1,4 +1,3 @@
-// // Home.jsx
 // import React, { useState, useEffect } from 'react';
 // import AnimalCard from '../components/AnimalCard';
 
@@ -6,18 +5,19 @@
 // const Home = () => {
 //   const [animals, setAnimals] = useState([]);
 
-//   // Fetch animals from JSON server endpoint
+
 //   useEffect(() => {
 //     fetch('http://localhost:3001/animals')
 //       .then(response => response.json())
 //       .then(data => {
-//         setAnimals(data.animals);
+//         console.log('Data from server:', data);
+//         setAnimals(data); 
 //       });
 //   }, []);
 
 //   return (
 //     <div>
-//       {/* Hero Section */}
+
 //       <div className="hero-section">
 //         <h1 className="hero-title">Welcome to Fur_Ever 🐾</h1>
 //         <p className="hero-subtitle">Find your perfect furry companion</p>
@@ -26,7 +26,7 @@
 //         </button>
 //       </div>
 
-//       {/* Animals Section */}
+
 //       <div className="mission-section">
 //         <h2 className="mission-title">Meet Our Friends</h2>
 //         <div className="animals-grid">
@@ -36,7 +36,7 @@
 //         </div>
 //       </div>
 
-//       {/* Mission Section */}
+
 //       <div className="mission-section">
 //         <h2 className="mission-title">Our Mission</h2>
 //         <p className="mission-text">
@@ -51,43 +51,22 @@
 // export default Home;
 
 
-// Home.jsx
-import React, { useState, useEffect } from 'react';
-import AnimalCard from '../components/AnimalCard';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
-  const [animals, setAnimals] = useState([]);
-
-  // Fetch animals from JSON server endpoint
-  useEffect(() => {
-    fetch('http://localhost:3001/animals')
-      .then(response => response.json())
-      .then(data => {
-        console.log('Data from server:', data);
-        setAnimals(data);  // ← CHANGED TO data instead of data.animals
-      });
-  }, []);
-
   return (
     <div>
       {/* Hero Section */}
       <div className="hero-section">
         <h1 className="hero-title">Welcome to Fur_Ever 🐾</h1>
         <p className="hero-subtitle">Find your perfect furry companion</p>
-        <button className="cta-button">
-          Meet Our Animals
-        </button>
-      </div>
-
-      {/* Animals Section */}
-      <div className="mission-section">
-        <h2 className="mission-title">Meet Our Friends</h2>
-        <div className="animals-grid">
-          {animals.map(animal => (
-            <AnimalCard key={animal.id} animal={animal} />
-          ))}
-        </div>
+        <Link to="/animals">
+          <button className="cta-button">
+            Meet Our Animals
+          </button>
+        </Link>
       </div>
 
       {/* Mission Section */}

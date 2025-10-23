@@ -1,4 +1,3 @@
-// Footer.jsx
 import React from 'react';
 
 
@@ -23,15 +22,15 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Contact Info</h4>
           <div className="footer-contact">
-            <p>📍 123 Shelter Street</p>
-            <p>📞 (555) 123-4567</p>
-            <p>✉️ help@fur_ever.org</p>
+            <p>📍 1234 Shelter Street</p>
+            <p>📞 (254) 12345678</p>
+            <p>✉️ fur_ever.org</p>
           </div>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; 2024 Fur_Ever Animal Shelter. All rights reserved.</p>
+        <p>&copy; 2030 Fur_Ever Animal Shelter. All rights reserved.</p>
       </div>
     </footer>
   );

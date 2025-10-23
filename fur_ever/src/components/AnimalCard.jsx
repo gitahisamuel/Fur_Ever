@@ -1,4 +1,3 @@
-// AnimalCard.jsx
 import React from 'react';
 
 
@@ -20,14 +19,11 @@ const AnimalCard = ({ animal }) => {
         <p className="pet-detail"><strong>Type:</strong> {type}</p>
         <p className="pet-detail"><strong>Breed:</strong> {breed}</p>
         <p className="pet-detail"><strong>Age:</strong> {age}</p>
+        <p className="pet-description">"{description}"</p>
         
-        {description && (
-          <p className="pet-description">"{description}"</p>
-        )}
-        
-        <div className={`pet-availability ${available ? 'available' : 'not-available'}`}>
+        <p className="pet-availability">
           {available ? 'Available for Adoption' : 'Already Adopted'}
-        </div>
+        </p>
         
         <div className="animal-actions">
           <button className="adopt-btn">
