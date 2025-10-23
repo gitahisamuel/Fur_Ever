@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import AnimalCard from '../components/AnimalCard';
 import SortBar from '../components/SortBar';  // Import our Animals-specific SortBar
+import './Animals.css';
 
 
 const Animals = () => {

@@ -1,7 +1,7 @@
 {
   "animals": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Bella",
       "type": "Dog",
       "breed": "Golden Retriever",
@@ -11,7 +11,7 @@
       "available": true
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Max",
       "type": "Dog",
       "breed": "Labrador",
@@ -21,7 +21,7 @@
       "available": true
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Rocky",
       "type": "Dog",
       "breed": "German Shepherd",
@@ -30,6 +30,20 @@
       "description": "Smart and protective, excellent guard dog and loyal companion",
       "available": true
     }
-   
+  ],
+  "adoptions": [
+    {
+      "id": "a1b0"
+    },
+    {
+      "id": "bffb",
+      "animalId": 1,
+      "animalName": "Bella",
+      "adopterName": "Samuel",
+      "adopterEmail": "Bullet@gmail.com",
+      "adopterPhone": "222",
+      "applicationDate": "2025-10-23T21:54:55.954Z",
+      "status": "pending"
+    }
   ]
 }
