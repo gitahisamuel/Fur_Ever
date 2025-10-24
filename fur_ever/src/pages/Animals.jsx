@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import AnimalCard from '../components/AnimalCard';
-import SortBar from '../components/SortBar';  // Import our Animals-specific SortBar
+import SortBar from '../components/SortBar'; 
 import './Animals.css';
 
 
@@ -17,7 +17,7 @@ const Animals = () => {
       });
   }, []);
 
-  // Handle filter - simple and clear
+
   const handleFilter = (filterType) => {
     if (filterType === 'all') {
       setFilteredAnimals(animals);
@@ -27,7 +27,7 @@ const Animals = () => {
     }
   };
 
-  // Handle sort - simple and clear
+
   const handleSort = (sortType) => {
     const animalsToSort = [...filteredAnimals];
     
@@ -48,7 +48,7 @@ const Animals = () => {
         <p>Find your perfect furry companion</p>
       </div>
 
-      {/* Simple usage - no complex props */}
+      
       <SortBar onFilter={handleFilter} onSort={handleSort} />
 
       <div className="animals-grid">

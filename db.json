@@ -122,5 +122,15 @@
     }
   ],
   "adoptions": [],
-  "donations": []
+  "donations": [
+    {
+      "id": "8e25",
+      "donorName": "Samuel",
+      "donorEmail": "admin@gmail.com",
+      "amount": 140,
+      "donationDate": "2025-10-24T07:00:41.476Z",
+      "status": "completed",
+      "currency": "Ksh"
+    }
+  ]
 }

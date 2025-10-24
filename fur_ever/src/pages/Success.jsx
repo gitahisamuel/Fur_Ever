@@ -5,7 +5,7 @@ import './Success.css';
 const Success = () => {
   const location = useLocation();
   
-  // Get the data passed from AdoptForm
+
   const { message = 'Your submission was successful!', animalName } = location.state || {};
 
   return (

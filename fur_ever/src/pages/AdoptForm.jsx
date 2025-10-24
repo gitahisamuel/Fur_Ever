@@ -12,7 +12,7 @@ const AdoptForm = () => {
     phone: ''
   });
 
-  // Fetch animal details
+  // Fetch animals from db
   useEffect(() => {
     fetch(`http://localhost:3001/animals/${animalId}`)
       .then(response => response.json())
@@ -21,7 +21,7 @@ const AdoptForm = () => {
       });
   }, [animalId]);
 
-  // Handle form input changes
+  
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -29,22 +29,22 @@ const AdoptForm = () => {
     });
   };
 
-  // Handle form submission
+
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Create simple adoption application
+  
     const adoptionData = {
       animalId: parseInt(animalId),
       animalName: animal.name,
       adopterName: formData.name,
       adopterEmail: formData.email,
       adopterPhone: formData.phone,
-      applicationDate: new Date().toISOString(),
+      // applicationDate: new Date().toISOString(),
       status: 'pending'
     };
 
-    // POST to JSON Server
+  
     fetch('http://localhost:3001/adoptions', {
       method: 'POST',
       headers: {
@@ -54,7 +54,7 @@ const AdoptForm = () => {
     })
     .then(response => response.json())
     .then(data => {
-      // Navigate to success page
+    
       navigate('/success', { 
         state: { 
           message: `Your adoption application for ${animal.name} has been submitted!`,
@@ -76,7 +76,7 @@ const AdoptForm = () => {
       <div className="form-container">
         <h1>Adopt {animal.name} 🐾</h1>
         
-        {/* Animal Info */}
+      
         <div className="animal-info-card">
           <h2>You're applying to adopt:</h2>
           <p><strong>Name:</strong> {animal.name}</p>
@@ -84,7 +84,7 @@ const AdoptForm = () => {
           <p><strong>Breed:</strong> {animal.breed}</p>
         </div>
 
-        {/* Simple Adoption Form */}
+        
         <form onSubmit={handleSubmit} className="adoption-form">
           <h2>Your Information</h2>
           
