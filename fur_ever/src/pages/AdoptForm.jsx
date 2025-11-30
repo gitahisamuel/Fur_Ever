@@ -40,7 +40,7 @@ const AdoptForm = () => {
       adopterName: formData.name,
       adopterEmail: formData.email,
       adopterPhone: formData.phone,
-      // applicationDate: new Date().toISOString(),
+      applicationDate: new Date().toISOString(),
       status: 'pending'
     };
 

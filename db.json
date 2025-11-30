@@ -121,7 +121,38 @@
       "available": true
     }
   ],
-  "adoptions": [],
+  "adoptions": [
+    {
+      "id": "c7a7",
+      "animalId": 1,
+      "animalName": "Bella",
+      "adopterName": "Samuel",
+      "adopterEmail": "Bullet@gmail.com",
+      "adopterPhone": "222",
+      "applicationDate": "2025-10-24T08:28:12.767Z",
+      "status": "pending"
+    },
+    {
+      "id": "60e5",
+      "animalId": 10,
+      "animalName": "Nibbles",
+      "adopterName": "Samuel",
+      "adopterEmail": "admin@gmail.com",
+      "adopterPhone": "7878787",
+      "applicationDate": "2025-11-18T13:29:04.951Z",
+      "status": "pending"
+    },
+    {
+      "id": "d53e",
+      "animalId": 2,
+      "animalName": "Coco",
+      "adopterName": "nye",
+      "adopterEmail": "admin@gmail.com",
+      "adopterPhone": "222",
+      "applicationDate": "2025-11-30T14:34:46.849Z",
+      "status": "pending"
+    }
+  ],
   "donations": [
     {
       "id": "8e25",
@@ -129,6 +160,24 @@
       "donorEmail": "admin@gmail.com",
       "amount": 140,
       "donationDate": "2025-10-24T07:00:41.476Z",
+      "status": "completed",
+      "currency": "Ksh"
+    },
+    {
+      "id": "bc51",
+      "donorName": "Samuel",
+      "donorEmail": "admin@gmail.com",
+      "amount": 140,
+      "donationDate": "2025-10-24T08:29:00.902Z",
+      "status": "completed",
+      "currency": "Ksh"
+    },
+    {
+      "id": "2da1",
+      "donorName": "Samuel",
+      "donorEmail": "admin@gmail.com",
+      "amount": 140,
+      "donationDate": "2025-11-19T17:39:18.373Z",
       "status": "completed",
       "currency": "Ksh"
     }

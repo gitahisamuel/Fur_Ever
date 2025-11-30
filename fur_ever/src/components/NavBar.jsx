@@ -16,11 +16,9 @@ const NavBar = () => {
           <Link to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link to="/animals">Animals</Link>  {/* ← ADD THIS LINE */}
+          <Link to="/animals">Animals</Link>  
         </li>
-        {/* <li className="nav-item">
-          <Link to="/donate">Donate</Link>
-        </li> */}
+
       </ul>
     </nav>
   );
