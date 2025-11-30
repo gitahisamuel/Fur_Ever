@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './DonateForm.css';
+import { baseUrl } from '../utils/constants';
 
 const DonateForm = () => {
   const navigate = useNavigate();
@@ -33,7 +34,7 @@ const DonateForm = () => {
     };
 
   
-    fetch('http://localhost:3001/donations', {
+    fetch(`${baseUrl}/donations`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

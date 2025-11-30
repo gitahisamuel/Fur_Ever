@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import AnimalCard from '../components/AnimalCard';
 import SortBar from '../components/SortBar'; 
 import './Animals.css';
+import { baseUrl } from '../utils/constants';
 
 
 const Animals = () => {
@@ -9,7 +10,7 @@ const Animals = () => {
   const [filteredAnimals, setFilteredAnimals] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3001/animals')
+    fetch(`${baseUrl}/animals`)
       .then(response => response.json())
       .then(data => {
         setAnimals(data);

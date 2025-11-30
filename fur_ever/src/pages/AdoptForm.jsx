@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import './AdoptForm.css';
+import { baseUrl } from '../utils/constants';
 
 const AdoptForm = () => {
   const { animalId } = useParams();
@@ -14,7 +15,7 @@ const AdoptForm = () => {
 
   // Fetch animals from db
   useEffect(() => {
-    fetch(`http://localhost:3001/animals/${animalId}`)
+    fetch(`${baseUrl}/animals/${animalId}`)
       .then(response => response.json())
       .then(data => {
         setAnimal(data);
@@ -45,7 +46,7 @@ const AdoptForm = () => {
     };
 
   
-    fetch('http://localhost:3001/adoptions', {
+    fetch(`${baseUrl}/adoptions`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
